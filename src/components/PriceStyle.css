@@ -1,0 +1,29 @@
+.price-btn{
+   width: 45%;
+  
+   margin-top: 12px;
+   
+   background-color: #01959a;
+   padding: 25px;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+font-weight: 600;
+font-size: 32px;
+}
+.price-btn:hover{
+    background-color: #080808;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.price-btn{
+    padding: 0.7rem 1.2rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}

@@ -1,0 +1,66 @@
+.footer {
+    padding: 4rem 6rem;
+    background-color: #333; /* Dark background color */
+    color: #fff;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top i {
+    color: #01959a; /* Highlight color on hover */
+    font-size: 2rem;
+    margin-left: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.top i:hover {
+    color: #fff; /* Return to white color on hover */
+}
+
+.bottom {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Each column takes 50% of the width on smaller screens */
+}
+
+.bottom h4 {
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.bottom a:hover {
+    color: #01959a; /* Highlight color on hover */
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 4rem 2rem;
+    }
+
+    footer i {
+        margin: 1rem 1rem 0 0;
+    }
+
+    .bottom div {
+        width: 100%; /* Each column takes 100% of the width on smaller screens */
+    }
+}
